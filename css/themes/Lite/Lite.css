@@ -1,0 +1,511 @@
+a {
+    color: orange
+}
+
+body {
+    background: #ededed;
+    color: #333
+}
+
+button {
+    background: 0 0;
+    color: #fff
+}
+
+input,textarea,.post_input_container {
+    background: #f6f6f6;
+    border: 1px solid #e6e6e6!important
+}
+
+.setdef {
+    color: #333
+}
+
+.bback {
+    background: rgb(0,0,0,.05)
+}
+
+.bbackb {
+    background: rgb(0,0,0,.05);
+    border: 1px solid rgb(0,0,0,.08)
+}
+
+.bhover:hover,.bhoverr:hover {
+    background: rgb(0,0,0,.05)
+}
+
+.bbackhover {
+    background: rgb(0,0,0,.05)
+}
+
+.bbackhover:hover {
+    background: rgb(0,0,0,.025)
+}
+
+.bbackhoverb {
+    background: rgb(0,0,0,.05)
+}
+
+.bbackhoverb:hover {
+    background: rgb(0,0,0,.025);
+    border: 1px solid rgb(0,0,0,.08)
+}
+
+.blisting {
+    border-bottom: 1px solid rgb(0,0,0,.08)
+}
+
+.blisting:hover {
+    background: rgb(0,0,0,.05)
+}
+
+.blist {
+    border-bottom: 1px solid rgb(0,0,0,.08)
+}
+
+.back_ptop {
+    background: #292929;
+    color: #fff
+}
+
+.bpmenu:hover {
+    background: rgb(255,255,255,.1)
+}
+
+.bsub {
+    background: rgb(0,0,0,.1)
+}
+
+.bsub:hover {
+    background: rgb(0,0,0,.2)
+}
+
+.bmenu,.submenu {
+    border-bottom: 1px solid rgb(0,0,0,.05)
+}
+
+.bmenu:hover,.submenu:hover {
+    background: rgb(0,0,0,.05)
+}
+
+.bshadow,.page_element,.float_menu,.btnshadow,.pboxed {
+    box-shadow: 0 1px 3px rgb(0,0,0,.2)
+}
+
+.bselected {
+    background: rgb(0,0,0,.08)
+}
+
+.rselected {
+    background: rgb(0,0,0,.08)
+}
+
+.pselected {
+    color: #03add8
+}
+
+.cselected,.liked {
+    background: rgb(0,0,0,.05)
+}
+
+.pag_btn {
+    background: rgb(0,0,0,.05);
+    color: #666
+}
+
+.pagselected,.pag_btn:hover {
+    background: rgb(0,0,0,.1)
+}
+
+.gtag {
+    background: #fff;
+    border: 1px solid rgb(0,0,0,.08)
+}
+
+.bborder {
+    border-bottom: 1px solid rgb(0,0,0,.08)
+}
+
+.tborder {
+    border-top: 1px solid rgb(0,0,0,.08)
+}
+
+.lborder,.ppanel {
+    border-left: 1px solid rgb(0,0,0,.08)
+}
+
+.rborder {
+    border-right: 1px solid rgb(0,0,0,.08)
+}
+
+.fborder {
+    border: 1px solid rgb(0,0,0,.08)
+}
+
+.float_top {
+    border-bottom: 1px solid rgb(0,0,0,.08)
+}
+
+.float_ctop {
+    border-bottom: 1px solid rgb(0,0,0,.08)
+}
+
+.bhead {
+    background: #222;
+    color: #fff
+}
+
+.modal_top {
+    background: #222;
+    color: #fff
+}
+
+.pro_top {
+    background: #222;
+    color: #fff
+}
+
+.bfoot {
+    background: #222;
+    color: #fff
+}
+
+.foot {
+    background: #222;
+    color: #fff
+}
+
+.backglob {
+    background: #fff
+}
+
+.back_chat {
+    background: #fff
+}
+
+.back_priv {
+    background: #fff
+}
+
+.back_panel {
+    background: #fff
+}
+
+.back_menu {
+    background: #fff
+}
+
+.back_pmenu {
+    background: #292929;
+    color: #fff
+}
+
+.back_box {
+    background: #fff
+}
+
+.back_input {
+    background: #fff;
+    border-top: 1px solid rgb(0,0,0,.08)
+}
+
+.back_modal {
+    background: #fff
+}
+
+.page_element {
+    background: #fff
+}
+
+.back_quote {
+    background: #fff
+}
+
+.theme_color {
+    color: #03add8
+}
+
+.default_color {
+    color: #222
+}
+
+.error {
+    color: red
+}
+
+.success {
+    color: #74b20e
+}
+
+.warn {
+    color: orange
+}
+
+.theme_btn,.back_theme {
+    background: #03add8;
+    color: #fff
+}
+
+.default_btn,.back_default {
+    background: #222;
+    color: #fff
+}
+
+.defaultd_btn {
+    background: #333;
+    color: #fff
+}
+
+.ok_btn {
+    background: #74b20e;
+    color: #fff
+}
+
+.warn_btn {
+    background: orange;
+    color: #fff
+}
+
+.delete_btn {
+    background: #c00;
+    color: #fff
+}
+
+.send_btn {
+    color: #222
+}
+
+.user {
+    color: #333
+}
+
+.chat_system {
+    color: #999
+}
+
+.offline {
+    opacity: .5
+}
+
+.menui {
+    color: #03add8
+}
+
+.subi {
+    color: #03add8
+}
+
+.reply_item {
+    background: #f6f6f6
+}
+
+.main_post_item {
+    color: rgb(0,0,0,.5)
+}
+
+.input_item {
+    color: #999
+}
+
+.target_private,.hunt_quote {
+    color: #fff;
+    background: #333
+}
+
+.hunter_private,.targ_quote {
+    color: #666;
+    background: #ededed
+}
+
+.cquote {
+    background: rgb(0,0,0,.05)!important
+}
+
+.cqname {
+    color: #000
+}
+
+.cqmess {
+    color: #666
+}
+
+.tab_menu {
+    background: #fff;
+    box-shadow: 0 1px 3px rgb(0,0,0,.2)
+}
+
+.tab_menu_item {
+}
+
+.tab_selected {
+    background: rgb(0,0,0,.08)
+}
+
+.modal_mback {
+    background: rgb(0,0,0,.04)
+}
+
+.modal_mborder {
+    border-bottom: 1px solid rgb(0,0,0,.08)
+}
+
+.modal_selected {
+    background: rgb(0,0,0,.08)
+}
+
+.modal_back {
+    background-color: rgba(0,0,0,.4)
+}
+
+.log2 {
+    background: rgb(0,0,0,.028)
+}
+
+.topic_log {
+    background: #d9f2e6;
+    color: #0d261a
+}
+
+.sys_log {
+}
+
+.bprogress {
+    background: #74b20e;
+    color: #fff
+}
+
+.bnotify {
+    background: red;
+    color: #fff
+}
+
+.foot_notify,.head_notify {
+    border: 1px solid #fff
+}
+
+.sub_date {
+    color: #888
+}
+
+.sub_chat,.sub_priv {
+    color: #ccc
+}
+
+.sub_text,.list_mood {
+    color: #888
+}
+
+.plikes {
+    background-color: rgba(100,100,100,.3);
+    color: #fff
+}
+
+.bspin {
+    color: rgb(0,0,0,.3)
+}
+
+.my_notice {
+    color: #fff;
+    background: #03add8
+}
+
+.system_text {
+    background: #ededed;
+    color: #666
+}
+
+.back_page {
+    background: #222;
+    color: #fff
+}
+
+.post_video {
+    background: rgb(0,0,0,1)
+}
+
+.boom_slider .ui-widget-content {
+    background: #ededed
+}
+
+.boom_slider .ui-state-default {
+    background: #999!important
+}
+
+.boom_slider .ui-state-active {
+    background: #999!important
+}
+
+.boom_slider .ui-slider-range {
+    background: #ccc
+}
+
+.selectboxit-list,.selectboxit-btn {
+    background-color: #f6f6f6;
+    color: #666;
+    border: 1px solid #e6e6e6!important
+}
+
+.selectboxit-list .selectboxit-focus .selectboxit-option-anchor {
+    background-color: #ededed;
+    color: #666
+}
+
+.selectboxit-default-arrow {
+    border-top: 4px solid #666
+}
+
+.selectboxit-btn.selectboxit-enabled:hover,.selectboxit-btn.selectboxit-enabled:focus,.selectboxit-btn.selectboxit-enabled:active {
+    background: #f6f6f6;
+    color: #666
+}
+
+.selectboxit-options {
+    background: #fff;
+    border: 1px solid #ccc
+}
+
+.selectboxit-list .selectboxit-option-anchor {
+    color: #666
+}
+
+.top_background,#private_input,.background_header,.chat_head,.chat_footer,.panel_top,.emo_head,.modal_top,.input_wrap,.panel_bar,.bhead,.pro_top,.float_top,.float_ctop {
+    background: #673ab7;
+    color: #fff;
+    color: #fff;
+    font-family: tahoma;
+    border: 1px solid #673ab7;
+    border-top: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+body {
+    background: linear-gradient(90deg,#ffffff 50%,#f7f2ff 100% );
+    color: #444
+}
+
+.mroom_text {
+    color: #fff
+}
+
+.fmenu_item {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    padding: 15px 1px 15px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #f6f6f6;
+    margin-bottom: 5px
+}
+
+.add_shadow,.page_element,#private_no,.page_menu_wrapper,.chat_side_panel,#side_menu,.sub_menu,.fmenu,#page_main_menu,.bshadow {
+    box-shadow: 0 0 6px 2px #8744ff
+}
+
+.send_btn {
+    border-radius: 10px;
+    background: transparent linear-gradient( 117deg,#8744ff,#673ab7) repeat scroll 0% 0%;
+    color: #fff;
+    font-family: almarai,sans-serif
+}

@@ -1,0 +1,119 @@
+.ulist_label{
+    position: relative;
+    z-index: 1;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 5px 8px;
+    text-shadow: 0px 1px 2px #000;
+    transition: all 0.15s ease;
+}
+.ulist_label::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 50%;
+    background: url('https://i.imgur.com/eqGvZEC.gif');
+}
+.ulist_label_icon{
+    display: table-cell;
+    vertical-align: middle;
+    width: 30px;
+    text-align: center;
+}
+.ulist_label_data{
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-overflow: ellipsis;
+    text-align: center;
+    padding: 0 8px;
+}
+/* Onair Dj */
+.ulist_onairdj{
+    background: linear-gradient(to bottom, #5A86FF, #335AD0);
+    color: #FFFFFF;
+    border: solid #7CAFFF 1px;
+    box-shadow: 0px 2px 3px #0D2444;
+}
+
+/* Owner */
+.ulist_owner{
+    background: linear-gradient(to bottom, #FFBC55, #D09832);
+    color: #FFFFFF;
+    border: solid #FFE779 1px;
+    box-shadow: 0px 2px 3px #44370D;
+}
+
+/* Superadmin */
+.ulist_sadmin{
+    background: linear-gradient(to bottom, #FF5C55, #D03434);
+    color: #FFFFFF;
+    border: solid #FF7A77 1px;
+    box-shadow: 0px 2px 3px #440F0D;
+}
+
+/* Admin */
+.ulist_admin{
+    background: linear-gradient(to bottom, #C049FF, #A735D0);
+    color: #FFFFFF;
+    border: solid #E17BFF 1px;
+    box-shadow: 0px 2px 3px #3A0C44;
+}
+
+/* Moderator */
+.ulist_mod{
+    background: linear-gradient(to bottom, #919191, #6a6a6a);
+    color: #FFFFFF;
+    border: solid #999999 1px;
+    box-shadow: 0px 2px 3px #444444;
+}
+
+/* Bot */
+.ulist_bot{
+    background: linear-gradient(to bottom, #6FFF59, #5BD034);
+    color: #FFFFFF;
+    border: solid #83FF79 1px;
+    box-shadow: 0px 2px 3px #13440D;
+}
+
+/* VIP */
+.ulist_vip{
+    background: linear-gradient(to bottom, #59FFFD, #35D0CB);
+    color: #FFFFFF;
+    border: solid #79FFFB 1px;
+    box-shadow: 0px 2px 3px #0D4441;
+}
+
+/* User */
+.ulist_user{
+    background: linear-gradient(to bottom, #C5C5C5, #9C9C9C);
+    color: #FFFFFF;
+    border: solid #DDDBDB 1px;
+    box-shadow: 0px 2px 3px #444444;
+}
+
+/* Guest */
+.ulist_guest{
+    background: linear-gradient(to bottom, #E9F04A, #C7C846);
+    color: #FFFFFF;
+    border: solid #F9FF7B 1px;
+    box-shadow: 0px 2px 3px #44410C;
+}
+
+/* Offline */
+.ulist_offline{
+    background: linear-gradient(to bottom, #292929, #414141);
+    color: #FFFFFF;
+    border: solid #000000 1px;
+    box-shadow: 0px 2px 3px #444444;
+}
